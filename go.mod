@@ -1,14 +1,12 @@
 module github.com/httprunner/httprunner/v5
 
-go 1.23.0
-
-toolchain go1.23.7
+go 1.26.3
 
 require (
 	github.com/Masterminds/semver v1.5.0
 	github.com/andybalholm/brotli v1.0.4
 	github.com/antchfx/xmlquery v1.4.4
-	github.com/bytedance/sonic v1.13.3
+	github.com/bytedance/sonic v1.15.4
 	github.com/charmbracelet/glamour v0.8.0
 	github.com/charmbracelet/huh v0.3.0
 	github.com/charmbracelet/huh/spinner v0.0.0-20250509124401-5fd7cf508477
@@ -53,7 +51,8 @@ require (
 	github.com/atotto/clipboard v0.1.4 // indirect
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
 	github.com/aymerick/douceur v0.2.0 // indirect
-	github.com/bytedance/sonic/loader v0.2.4 // indirect
+	github.com/bytedance/gopkg v0.1.3 // indirect
+	github.com/bytedance/sonic/loader v0.5.2 // indirect
 	github.com/catppuccin/go v0.2.0 // indirect
 	github.com/cenkalti/backoff v2.2.1+incompatible // indirect
 	github.com/charmbracelet/bubbles v0.21.0 // indirect
@@ -62,7 +61,7 @@ require (
 	github.com/charmbracelet/x/ansi v0.8.0 // indirect
 	github.com/charmbracelet/x/cellbuf v0.0.13-0.20250311204145-2c3ea96c31dd // indirect
 	github.com/charmbracelet/x/term v0.2.1 // indirect
-	github.com/cloudwego/base64x v0.1.5 // indirect
+	github.com/cloudwego/base64x v0.1.6 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.4 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/dlclark/regexp2 v1.11.0 // indirect
