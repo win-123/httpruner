@@ -9,6 +9,7 @@ import (
 	"github.com/httprunner/httprunner/v5/cmd"
 	"github.com/httprunner/httprunner/v5/cmd/adb"
 	"github.com/httprunner/httprunner/v5/cmd/ios"
+	"github.com/httprunner/httprunner/v5/browser"
 	"github.com/httprunner/httprunner/v5/code"
 )
 
@@ -24,6 +25,7 @@ func addAllCommands() {
 	cmd.RootCmd.AddCommand(cmd.CmdWiki)
 	cmd.RootCmd.AddCommand(cmd.CmdMCPHost)
 	cmd.RootCmd.AddCommand(cmd.CmdMCPServer)
+	cmd.RootCmd.AddCommand(browser.CmdBrowser)
 
 	cmd.RootCmd.AddCommand(ios.CmdIOSRoot)
 	cmd.RootCmd.AddCommand(adb.CmdAndroidRoot)
